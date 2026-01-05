@@ -127,7 +127,8 @@
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       overflow-x: hidden;
-      cursor: none;
+      overflow-x: hidden;
+      /* cursor: none; REMOVED to fix pointer issue */
     }
 
     /* ========== Loading Screen ========== */
@@ -149,6 +150,7 @@
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
+      z-index: -1;
     }
 
     .loader {
@@ -2027,8 +2029,11 @@
     // Failsafe: Ensure loader disappears even if main JS fails
     setTimeout(function () {
       var loader = document.getElementById('loader');
-      if (loader) loader.classList.add('hidden');
-    }, 3500);
+      if (loader) {
+        loader.classList.add('hidden');
+        loader.style.zIndex = '-1';
+      }
+    }, 500);
   </script>
 
   <!-- Scroll Progress Bar -->
