@@ -3082,11 +3082,17 @@
     }
 
     // ========== Loading Screen ==========
+    function hideLoader() {
+      const loader = document.getElementById('loader');
+      if (loader) loader.classList.add('hidden');
+    }
+
     window.addEventListener('load', () => {
-      setTimeout(() => {
-        document.getElementById('loader').classList.add('hidden');
-      }, 1500);
+      setTimeout(hideLoader, 1500);
     });
+
+    // Fallback: Force hide after 3.5 seconds if load event hangs
+    setTimeout(hideLoader, 3500);
 
     // ========== Scroll Progress Bar ==========
     const scrollProgress = document.getElementById('scrollProgress');
