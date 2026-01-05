@@ -148,6 +148,7 @@
     .loader-wrapper.hidden {
       opacity: 0;
       visibility: hidden;
+      pointer-events: none;
     }
 
     .loader {
@@ -2021,6 +2022,14 @@
       <div class="loader-spinner"></div>
     </div>
   </div>
+
+  <script>
+    // Failsafe: Ensure loader disappears even if main JS fails
+    setTimeout(function () {
+      var loader = document.getElementById('loader');
+      if (loader) loader.classList.add('hidden');
+    }, 3500);
+  </script>
 
   <!-- Scroll Progress Bar -->
   <div class="scroll-progress" id="scrollProgress"></div>
