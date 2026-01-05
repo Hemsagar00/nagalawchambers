@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /gemini_proxy.php
+Disallow: /case_api.php
+Disallow: /update_admin_xyz123.php
