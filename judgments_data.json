@@ -1,0 +1,92 @@
+[
+  {
+    "id": "J2025001",
+    "title": "Meka Chakra Rao vs. State of Andhra Pradesh",
+    "court": "Supreme Court of India",
+    "date": "2024-12-05",
+    "citation": "2024 SCC OnLine SC 3122",
+    "tags": ["Land Acquisition", "Compensation", "Revenue"],
+    "summary": "Supreme Court clarifies that market value for acquired land must consider potentiality of development, not just current agricultural use. Crucial for land pooling schemes in AP.",
+    "link": "https://mnlumumbai.edu.in/pdf/Land%20Acquisition%20Article.pdf"
+  },
+  {
+    "id": "J2024089",
+    "title": "K. Srinivas vs. Spl. Deputy Collector",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-11-20",
+    "citation": "2024 (6) ALD 45",
+    "tags": ["Revenue Act", "Mutation", "Title Dispute"],
+    "summary": "Mutation entries in revenue records (1B) do not confer title but are strong evidence of possession. RDO cannot cancel pattas without following due process under ROR Act.",
+    "link": "#"
+  },
+  {
+    "id": "J2024072",
+    "title": "State of AP vs. V. Ramana",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-10-15",
+    "citation": "2024 (5) ALD 112",
+    "tags": ["Criminal", "Bail", "498A"],
+    "summary": "Automatic arrest in 498A (Dowry Harassment) cases is violative of Arnesh Kumar guidelines. Police officers must serve Section 41A CrPC notice before arrest.",
+    "link": "#"
+  },
+  {
+    "id": "J2024055",
+    "title": "Lakshmi Narayana vs. Authorized Officer",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-09-02",
+    "citation": "2024 (4) ALD 330",
+    "tags": ["Land Grabbing", "Encroachment", "Injunction"],
+    "summary": "Land Grabbing Tribunal has jurisdiction only when strict proof of 'grabbing' is evident. Mere boundary disputes must be settled in Civil Courts.",
+    "link": "#"
+  },
+  {
+    "id": "J2024041",
+    "title": "P. Ravi Kumar vs. District Collector, Anantapur",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-08-10",
+    "citation": "2024 (4) ALD 18",
+    "tags": ["Prohibited List", "Section 22A", "Registration"],
+    "summary": "District Collector cannot arbitrarily place private patta lands in Section 22A (Prohibited List) without specific government orders. Registrar directed to register sale deed.",
+    "link": "#"
+  },
+  {
+    "id": "J2024033",
+    "title": "S. Naresh vs. State of AP",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-07-22",
+    "citation": "2024 (3) ALD 601",
+    "tags": ["Webland", "Adangal Correction", "Revenue"],
+    "summary": "Mandamus issued directing Tahsildar to dispose of online F-Line petition for survey and boundary fixation within 45 days. Inaction leading to contempt.",
+    "link": "#"
+  },
+  {
+    "id": "J2024018",
+    "title": "Union of India vs. Raj Gopal",
+    "court": "Supreme Court of India",
+    "date": "2024-06-15",
+    "citation": "2024 SCC OnLine SC 1540",
+    "tags": ["Service Law", "Employment", "Termination"],
+    "summary": "Departmental enquiry cannot be initiated on vague charges. Findings must be based on evidence, not suspicion. Reinstatement with back wages ordered.",
+    "link": "#"
+  },
+   {
+    "id": "J2024005",
+    "title": "G. Venkata Reddy vs. Joint Collector",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-05-05",
+    "citation": "2024 (2) ALD 33",
+    "tags": ["Inam Land", "Ryotwari Patta", "Revenue"],
+    "summary": "Occupant of Inam land entitled to Ryotwari Patta under Inams Abolition Act if possession proved prior to 1948. Joint Collector order set aside.",
+    "link": "#"
+  },
+  {
+    "id": "J2024002",
+    "title": "State Bank vs. T. Ramesh",
+    "court": "High Court of Andhra Pradesh",
+    "date": "2024-04-12",
+    "citation": "2024 (2) ALD 108",
+    "tags": ["Cheque Bounce", "NI Act", "Section 138"],
+    "summary": "In Section 138 cases, presumption of debt exists. Burden of proof shifts to accused to show non-existence of debt. Conviction upheld.",
+    "link": "#"
+  }
+]

@@ -13,13 +13,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary: #FFD700;
-            --primary-dark: #b8860b;
-            --bg: #0a0a0a;
-            --card: #121212;
-            --text: #e0e0e0;
+            /* Palette: Calm Luxury */
+            --primary: #D4AF37;
+            --primary-light: #F4C430;
+            --bg: #121212;
+            --card: #1A1A1A;
+            --text: #F5F5F0;
+            --text-muted: #B0B0A8;
             --font-heading: 'Playfair Display', serif;
-            --font-body: 'Lato', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --border-subtle: rgba(212, 175, 55, 0.15);
         }
 
         * {
@@ -34,34 +37,40 @@
             color: var(--text);
             padding: 20px;
             min-height: 100vh;
-            line-height: 1.9;
+            line-height: 1.8;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
         }
 
         header {
             text-align: center;
-            margin-bottom: 40px;
-            padding-top: 30px;
+            margin-bottom: 60px;
+            padding-top: 40px;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 30px;
         }
 
         h1 {
             font-family: var(--font-heading);
-            color: var(--primary);
+            color: var(--text);
             margin: 0;
+            font-weight: 600;
+            letter-spacing: 1px;
+            font-size: 2.2rem;
+        }
+
+        h1 span {
             font-weight: 400;
-            letter-spacing: 3px;
-            font-size: 2.5rem;
         }
 
         .subtitle {
-            color: #666;
-            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
             letter-spacing: 2px;
-            margin-top: 8px;
+            margin-top: 10px;
             text-transform: uppercase;
         }
 
@@ -70,69 +79,60 @@
         }
 
         .nav-links a {
-            color: #888;
+            color: var(--text-muted);
             text-decoration: none;
             font-size: 0.9rem;
-            border: 1px solid rgba(255, 215, 0, 0.2);
-            padding: 10px 25px;
-            border-radius: 25px;
+            border: 1px solid var(--border-subtle);
+            padding: 8px 20px;
+            border-radius: 50px;
             transition: 0.3s;
-            background: rgba(255, 215, 0, 0.05);
         }
 
         .nav-links a:hover {
             border-color: var(--primary);
             color: var(--primary);
-            background: rgba(255, 215, 0, 0.1);
         }
 
         .content-section {
-            padding: 25px 0;
-            border-bottom: 1px solid #222;
+            padding: 30px 0;
+            border-bottom: 1px solid var(--border-subtle);
         }
 
         h2 {
             font-family: var(--font-heading);
             color: var(--primary);
-            font-size: 1.4rem;
-            margin-bottom: 15px;
-            font-weight: 400;
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            font-weight: 500;
         }
 
-        p {
-            color: #bbb;
-            margin-bottom: 15px;
-        }
-
-        ul {
-            padding-left: 20px;
-            margin-bottom: 15px;
-        }
-
+        p,
         li {
-            color: #aaa;
-            margin-bottom: 8px;
+            color: var(--text-muted);
+            margin-bottom: 15px;
         }
 
         strong {
-            color: #fff;
+            color: var(--text);
+            font-weight: 600;
         }
 
         footer {
             text-align: center;
-            margin-top: 50px;
-            padding: 30px 0;
-            border-top: 1px solid #222;
-            color: #555;
+            margin-top: 60px;
+            padding: 40px 0;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            font-size: 0.9rem;
         }
 
         footer .brand {
-            color: var(--primary);
-            font-weight: 700;
+            color: var(--text);
+            font-family: var(--font-heading);
         }
 
         footer a {
-            color: #888;
+            color: var(--text-muted);
             transition: 0.3s;
         }
 
@@ -161,7 +161,8 @@
                 Advocate S. Nagendra Naik or NAGA Legal Chambers.</p>
             <p>The AI-generated documents, analysis, and outputs are computer-generated estimates and drafts. They are
                 <strong>not intended for direct legal use</strong> without review and customization by a qualified legal
-                professional.</p>
+                professional.
+            </p>
         </section>
 
         <section class="content-section">
@@ -206,7 +207,8 @@
             <h2>5. Limitation of Liability</h2>
             <p>To the fullest extent permitted by law, NAGA Legal Chambers and Advocate S. Nagendra Naik shall
                 <strong>not be liable for any direct, indirect, incidental, consequential, or special damages</strong>
-                arising out of or in connection with your use of this website or any AI-generated content.</p>
+                arising out of or in connection with your use of this website or any AI-generated content.
+            </p>
         </section>
 
         <section class="content-section">
